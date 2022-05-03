@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>com_myonvpn_tuntap_TunTapLinux.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>com_myonvpn_tuntap_TunTapLinux.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="2">
+      <toolsSet>
+        <compilerSet>GNU|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>/usr/lib/jvm/java-6-sun-1.6.0.07/include/linux</pElem>
+            <pElem>/usr/lib/jvm/java-6-sun-1.6.0.07/include</pElem>
+            <pElem>/usr/lib/jvm/java-6-sun-1.6.0.03/include/linux</pElem>
+            <pElem>/usr/lib/jvm/java-6-sun-1.6.0.03/include</pElem>
+            <pElem>/usr/lib/jvm/java-7-openjdk-amd64/include</pElem>
+          </incDir>
+        </cTool>
+        <linkerTool>
+          <output>dist/Debug/GNU-Linux-x86/libTunTapLinux.so</output>
+        </linkerTool>
+      </compileType>
+      <item path="com_myonvpn_tuntap_TunTapLinux.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="com_myonvpn_tuntap_TunTapLinux.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="2">
+      <toolsSet>
+        <compilerSet>GNU|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+      </compileType>
+      <item path="com_myonvpn_tuntap_TunTapLinux.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="com_myonvpn_tuntap_TunTapLinux.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
